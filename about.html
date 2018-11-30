@@ -1,0 +1,189 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+    <title>. s . l i n .</title>
+    <meta name="description" content="slin porto">
+    <link rel="stylesheet" href="assets/CSS/reset.css">
+    <link rel="stylesheet" href="assets/CSS/style-4.css">
+    <link rel="stylesheet" href="assets/CSS/project.css">
+
+
+    <link rel="stylesheet" href="https://use.typekit.net/tjp7wie.css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129726498-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129726498-1');
+</script>
+
+
+
+
+
+</head>
+
+
+<body>
+    <div class="sticker" id="sticker1"> <img src="assets/images/green oval.png"></img>
+    </div>
+    <div class="sticker" id="sticker2"> <img src="assets/images/green oval.png"></img>
+    </div>
+    <div class="sticker" id="sticker3"> <img src="assets/images/green oval.png"></img>
+    </div>
+
+
+    <div  id="header"  >
+        <div id="spacer"  class="hide">
+            <a id = "arrowHeight" href="index.html"><img src="assets/images/Back Arrow.png"></img></a>
+        </div>
+        <div id="name-box">
+                <h1 id="nameHeight">SHANNON LIN</h1>
+        </div>   
+        <div id="spacer" class="projectMobileOnly" >
+            <div class="mobilemenu projectMobileOnly" id="moremenu">
+                 <img src="assets/images/moremenu-symbol-thicc.png">
+            </div>
+        </div>
+    </div>
+    
+        
+    <!--<div id="mobileArrow">-->
+    <!--    <a href="index.html"><img src="assets/images/Back Arrow.png"></img></a>-->
+    <!--</div>-->
+    
+    
+    
+    <div id="menu">
+        <ul>
+            <a href="index.html">
+                <li>works</li>
+            </a>
+            <a href="about.html">
+                <li>about</li>
+            </a>
+            <a href="contact.html">
+                <li>contact</li>
+            </a>
+            <a href="resume.html">
+                <li>resume</li>
+            </a>
+        </ul>
+
+
+    </div>
+
+
+    <div id="grid">
+        <div class="container">
+            <img class="image mobileHero projectMobileOnly" id="0" src="assets/images/about.JPG">
+        </div>
+        
+
+        <div class="container mobileHide">
+            <img class="image desktopOnly" id="0" src="assets/images/about.JPG">
+        </div>
+        <div class="container">
+            <div class="subhead">
+                <h3>
+                    hi it's me
+                </h3>
+            </div>
+            <div class="content">
+                <!--<div class= "para-break"></div>-->
+                <p>
+                    Visual communication has always fascinated me—from how it connects everyday interactions to how it will influence future interfaces. Design is about different ways of seeing and place-making, and I continually hope that my work will not only spark curiosity, but also a better understanding of our cultures and environments. </p>
+                <div class="para-break"></div>
+
+                <p>I'm interested in extending my skills in digital product design, user experience, and visual design.</p>
+                <div class="para-break"></div>
+
+                <p>Currently reading Sapiens, by Yuval Harari. Momentarily obsessed with the ZX Spectrum. Let me know if you have one. </p>
+                <div class="para-break"></div>
+
+                
+
+                <h5>carnegie mellon university '19 </h5>
+                 <div class="para-break"></div>
+                <p>Major–Communications Design</p>
+               <p>Double–Human Computer Interaction</p> 
+                <p>Minor–Business Administration</p>
+<div class="para-break"></div>
+                <h5>experience</h5>
+                 <div class="para-break"></div>
+                <p>Nextdoor</p>
+                <p>Boon Design</p>
+                <p>Currnetly @ Expii</p>
+               
+                
+                
+                </p>
+            </div>
+        </div>
+
+    
+
+
+
+    </div>
+    <div id ="mobileMenuItems" class="mobileHide">
+            <ul>
+                 <a href="index.html"><li>works</li></a> 
+                 <a href="about.html"><li>about</li></a> 
+                 <a href="contact.html"><li>contact</li></a> 
+                 <a href="resume.html"><li>resume</li></a> 
+            </ul>
+    </div>
+
+
+
+</body>
+
+<script>
+    var winwidth = window.innerWidth;
+    var winheight = window.innerHeight;
+    console.log(winwidth);
+
+    function getRandomIntHeight(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+    }
+
+    function getRandomIntWidth(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+    }
+
+    var rand1x = getRandomIntWidth(0, winwidth)
+    var rand1y = getRandomIntHeight(0, winheight)
+
+    var rand2x = getRandomIntWidth(0, winwidth)
+    var rand2y = getRandomIntHeight(0, winheight)
+
+    var rand3x = getRandomIntWidth(0, winwidth)
+    var rand3y = getRandomIntHeight(0, winheight)
+
+    document.getElementById("sticker1").style.left = (rand1x + "px")
+    document.getElementById("sticker1").style.top = (rand1y + "px")
+
+    document.getElementById("sticker2").style.left = (rand2x + "px")
+    document.getElementById("sticker2").style.top = (rand2y + "px")
+
+    document.getElementById("sticker3").style.left = (rand3x + "px")
+    document.getElementById("sticker3").style.top = (rand3y + "px")
+</script>
+
+
+<script src="assets/script.js"></script>
+</body>
+
+</html>

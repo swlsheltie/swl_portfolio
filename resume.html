@@ -1,0 +1,152 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0" />
+  <title>. s . l i n .</title>
+  <meta name="description" content="slin porto">
+ <link rel="stylesheet" href="assets/CSS/reset.css">
+  <link rel="stylesheet" href="assets/CSS/style-4.css">
+ 
+
+<link rel="stylesheet" href="https://use.typekit.net/tjp7wie.css">
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129726498-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129726498-1');
+</script>
+
+  
+
+  
+</head>
+
+
+<body >
+    
+   <div  id="header"  >
+        <div id="spacer"  class="hide">
+           
+        </div>
+        <div id="name-box">
+                <h1 id="nameHeight">SHANNON LIN</h1>
+        </div>   
+        <div id="spacer" class="projectMobileOnly" >
+            <div class="mobilemenu projectMobileOnly" id="moremenu">
+                 <img src="assets/images/moremenu-symbol-thicc.png">
+            </div>
+        </div>
+    </div>
+    
+    <div class="sticker" id="sticker1" > <img src="assets/images/green oval.png"></div>
+    <div class="sticker" id="sticker2" > <img src="assets/images/green oval.png"></div>
+    <div class="sticker" id="sticker3" > <img src="assets/images/green oval.png"> </div>
+    
+    
+    <div id="menu">
+            <ul>
+                 <a href="index.html"><li>works</li></a> 
+                 <a href="about.html"><li>about</li></a> 
+                 <a href="mailto:swl@andrew.cmu.edu?subject=Hello%20from%20____%20🐣"><li>contact</li></a> 
+                 <a href="resume.html"><li>resume</li></a> 
+            </ul>
+    </div>
+    
+
+    <div id="grid" >
+    <div class="container">
+        
+        <a href="https://drive.google.com/open?id=1sCtSnAZdgYQmX4AtHEYDraCwhJ1xmqRb" target="_blank"><img src="assets/images/0001.jpg"></a>
+            
+        </div>
+        
+        
+        </div>
+        
+       
+        
+        
+    
+        
+   
+        
+    </div>
+    <div class="mobileHide" id ="mobileMenuItems">
+            <ul>
+                 <a href="index.html"><li>works</li></a> 
+                 <a href="about.html"><li>about</li></a> 
+                 <a href="mailto:swl@andrew.cmu.edu">><li>contact</li></a> 
+                 <a href="resume.html"><li>resume</li></a> 
+            </ul>
+    </div>
+    
+    
+
+</body>
+
+<script >
+    var winwidth = window.innerWidth;
+    var winheight= window.innerHeight;
+    console.log(winwidth);
+    function getRandomIntHeight(min, max) {
+          min = Math.ceil(min);
+          max = Math.floor(max);
+          return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+        } 
+    function getRandomIntWidth(min, max) {
+          min = Math.ceil(min);
+          max = Math.floor(max);
+          return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+        } 
+        
+    var rand1x = getRandomIntWidth(0, winwidth)
+    var rand1y = getRandomIntHeight(0,winheight)
+    
+    var rand2x = getRandomIntWidth(0, winwidth)
+    var rand2y = getRandomIntHeight(0,winheight)
+    
+     var rand3x = getRandomIntWidth(0, winwidth)
+    var rand3y = getRandomIntHeight(0,winheight)
+    
+    document.getElementById("sticker1").style.left=(rand1x+"px")
+    document.getElementById("sticker1").style.top=(rand1y+"px")
+    
+     document.getElementById("sticker2").style.left=(rand2x+"px")
+    document.getElementById("sticker2").style.top=(rand2y+"px")
+    
+     document.getElementById("sticker3").style.left=(rand3x+"px")
+    document.getElementById("sticker3").style.top=(rand3y+"px")
+    
+    
+    function project0() {
+        window.location.href = "project0.html";
+    }
+    function project1() {
+        window.location.href = "project1.html";
+    }
+    function project2() {
+        window.location.href = "project2.html";
+    }
+    function project3() {
+        window.location.href = "project3.html";
+    }
+    function project4() {
+        window.location.href = "project4.html";
+    }
+    function project5() {
+        window.location.href = "project5.html";
+    }
+ 
+</script> 
+
+<script src="assets/script.js"></script>
+
+</body>
+</html>

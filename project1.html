@@ -1,0 +1,210 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+  <title>. s . l i n .</title>
+  <meta name="description" content="slin porto">
+  <link rel="stylesheet" href="assets/CSS/reset.css">
+    <link rel="stylesheet" href="assets/CSS/style-4.css">
+    <link rel="stylesheet" href="assets/CSS/project.css">
+
+<link rel="stylesheet" href="https://use.typekit.net/tjp7wie.css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129726498-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129726498-1');
+</script>
+
+
+  
+
+  
+</head>
+
+
+<body>
+    <div class="sticker" id="sticker1" > <img src="assets/images/green oval.png"></img> </div>
+    <div class="sticker" id="sticker2" > <img src="assets/images/green oval.png"></img> </div>
+    <div class="sticker" id="sticker3" > <img src="assets/images/green oval.png"></img> </div>
+     <div  id="header"  >
+        <div id="spacer"  class="hide">
+            <a id = "arrowHeight" href="index.html"><img src="assets/images/Back Arrow.png"></img></a>
+        </div>
+        <div id="name-box">
+                <h1 id="nameHeight">SHANNON LIN</h1>
+        </div>   
+        <div id="spacer" class="projectMobileOnly" >
+            <div class="mobilemenu projectMobileOnly" id="moremenu">
+                 <img src="assets/images/moremenu-symbol-thicc.png">
+            </div>
+        </div>
+    </div>
+    
+    <div id="menu">
+        <ul>
+            <a href="index.html">
+                <li>works</li>
+            </a>
+            <a href="about.html">
+                <li>about</li>
+            </a>
+            <a href="contact.html">
+                <li>contact</li>
+            </a>
+            <a href="resume.html">
+                <li>resume</li>
+            </a>
+        </ul>
+
+
+    </div>
+
+    <div id="grid" >
+        <div class="container">
+            <img class="image mobileHero projectMobileOnly" id="1" src="assets/images/1-0.png">
+        </div>
+        <div class="container titlebox">
+         
+            <div class="number">
+            <h2>
+                02
+            </h2>
+            <h2 class="projectMobileOnly">
+                    absctraction/recognition
+                </h2>
+            <div class= "para-break"></div>
+            <h4>
+                SKILLS
+            </h4>
+            <p>
+                conditional design<br/>
+                participatory design<br/>
+                visual & graphic<br/>
+                
+            </p>
+            <div class= "para-break"></div>
+            <h4>
+                INSTRUCTION
+            </h4>
+            <p>
+                kyuha shim<br/>
+            </p>
+            <div class= "para-break"></div>
+            <h4>
+                TIMELINE
+            </h4>
+            <p>
+                6 weeks
+            </p>
+            </div>
+            <div class="metadata">
+            <h2 class="desktopOnly">
+               patterns of abstraction
+            </h2>
+            <div class= "para-break"></div>
+            <h4>
+                ABSTRACT
+            </h4>
+            <p>
+                patterns of abstraction is a multi-piece poster series based on the process of machine learning. 
+            </p>
+            </div>
+        </div>
+        
+        <div class="container">
+            <img class="image desktopOnly" id="0" src="assets/images/1-0.png">
+            
+        </div>
+        <div class="container">
+            <div class="subhead">
+            <h3>
+                overview
+            </h3>
+            </div>
+            <div class="content">
+            
+
+<p>Inspired by the work of Luna Maurer, known for her development of field of conditional design, I wanted to create something in the 
+flavor of group participatory design that went beyond arbitrary rules or "conditions". Instead, I was more fascinated by the rules and 
+the process of creating itself, than the end result (though I also had a somewhat specific image/result in mind when creating the rules
+behind the posters).</p><div class="para-break"></div>
+
+<p>These posters were inspired by the process of image recognition and neural nets. I broke down the computational steps behind a 
+simplified image recognition process, and had a human participant take the role of each of those 6-7 steps. Starting from a "blank" 
+poster with hundreds of randomized images, I had each person in the workflow pass on what they interpreted from the images to the 
+next—the last person, using the compounded abstractions from each "layer" before them, would attempt to name a specific memory or 
+experience that the final image reminded them of.  </p><div class="para-break"></div>
+
+<p>Through this process, I wanted to explore how human recognition still differs from computer recognition, and maybe, 
+how they might converge in the future. 
+            </p>
+            </div>
+            
+        </div>
+        </div>
+        
+        <div id ="mobileMenuItems" class="mobileHide">
+            <ul>
+                 <a href="index.html"><li>works</li></a> 
+                 <a href="about.html"><li>about</li></a> 
+                 <a href="contact.html"><li>contact</li></a> 
+                 <a href="resume.html"><li>resume</li></a> 
+            </ul>
+    </div>
+        
+
+</body>
+
+<script >
+    
+    
+    
+    var winwidth = window.innerWidth;
+    var winheight= window.innerHeight;
+    console.log(winwidth);
+    function getRandomIntHeight(min, max) {
+          min = Math.ceil(min);
+          max = Math.floor(max);
+          return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+        } 
+    function getRandomIntWidth(min, max) {
+          min = Math.ceil(min);
+          max = Math.floor(max);
+          return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+        } 
+        
+    var rand1x = getRandomIntWidth(0, winwidth)
+    var rand1y = getRandomIntHeight(0,winheight)
+    
+    var rand2x = getRandomIntWidth(0, winwidth)
+    var rand2y = getRandomIntHeight(0,winheight)
+    
+     var rand3x = getRandomIntWidth(0, winwidth)
+    var rand3y = getRandomIntHeight(0,winheight)
+    
+    document.getElementById("sticker1").style.left=(rand1x+"px")
+    document.getElementById("sticker1").style.top=(rand1y+"px")
+    
+     document.getElementById("sticker2").style.left=(rand2x+"px")
+    document.getElementById("sticker2").style.top=(rand2y+"px")
+    
+     document.getElementById("sticker3").style.left=(rand3x+"px")
+    document.getElementById("sticker3").style.top=(rand3y+"px")
+    
+    
+    
+    
+    
+</script> 
+
+
+<script src="assets/script.js"></script>
+</body>
+</html>

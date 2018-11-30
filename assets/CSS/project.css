@@ -1,0 +1,341 @@
+
+h2 {
+    font-size: 2.4em;
+}
+
+h3 {
+    font-family:"neue-haas-unica", sans-serif;
+    font-size: 2.2em;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    line-height: 1.15em;
+}
+
+h4 {
+    
+    font-family:"neue-haas-unica", sans-serif;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-style: normal;
+    color: black
+}
+
+h5 {
+    font-family:"neue-haas-unica", sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.3em;
+    color: black;
+    /*text-decoration: underline;*/
+    margin-left: 2em;
+    /*color: #0000ff;*/
+    
+}
+h6 {
+    font-family: "neue-haas-unica", sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.25em;
+    color: black;
+    margin-bottom: 0.8em;
+}
+
+h6 span {
+    font-family: Happy-Times-at-the-IKOB, serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2em;
+    color: black;
+    text-decoration: underline;
+    letter-spacing: 0.1em;
+    /*position: relative;*/
+}
+
+h6 span img{
+    position: absolute;
+    /*left: 100px;*/
+    width: 20% !important;
+    height: auto;
+    display: none;
+}
+
+
+p span { 
+    /*background-color: #fff; */
+
+    font-family: Happy-Times-at-the-IKOB, serif;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2em;
+    color: black;
+    text-decoration: underline;
+    letter-spacing: 0.05em;
+    /*position: relative;*/
+}
+
+
+.para-break {
+    height: 0.7em;
+}
+
+
+
+
+
+
+#mobileArrow {
+        display: none;
+    }
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 3vh;
+}
+
+
+#special-follow-no-margin {
+    margin-bottom: 0;
+}
+
+.mobile-prototype{
+    /*margin-top: 3vh;*/
+    /*margin-bottom: 0;*/
+    border: solid black;
+    border-top: none;
+    padding: 2% 0;
+}
+
+.app {
+   /*border: solid black;*/
+    background-color: #EEECF4;
+    /*width: 100%;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.frame {
+    width: 100%;
+    height:100%;
+    position:relative;
+    padding: 56.25% 0 0 0;
+}
+
+
+.frame iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+}
+
+.subhead {
+    width: 35%;
+    margin-right: 5%;
+    /*outline: solid red;*/
+    
+}
+
+.large-subhead {
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.content {
+    width: 60%;
+     /*outline: solid blue;*/
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+}
+
+/*.project img {*/
+/*    display:none;*/
+/*    position: fixed;*/
+/*    width: 40%;*/
+/*    height: auto;*/
+/*    left: 30%;*/
+/*    top: 40%;*/
+    
+/*}*/
+
+
+.titlebox {
+    border: solid black;
+    /*padding: 3% 3% 3% 0;*/
+}
+
+
+.number {
+    width: 37%;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    /*outline: solid teal;*/
+}
+
+.metadata {
+    width: 60%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+        margin-right: 3%;
+    /*outline: solid indigo;*/
+}
+
+
+
+/*EXCEPTIONS /////////////////////*/
+
+#wider {
+    width: 50%;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.projectMobileOnly {
+    display: none ;
+}
+    
+
+
+/*RESPONSIVENESS///////////////////////////////////////////*/
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+    
+    }
+    
+    /*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    
+    }
+    
+    /*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+    .desktopOnly {
+        display: inline-block;
+    }
+    
+}
+    
+
+
+@media (max-width: 575.98px) { 
+  
+    h2 {
+    font-size: 1.7em;
+    }
+
+h3 {
+    font-size:2em;
+}
+h5 {
+    margin-left: 0;
+}
+    h6 {
+        font-family: "neue-haas-unica", sans-serif;
+    font-size: 1.4em;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5em;
+    color: black;
+    margin: 0.3em 0;
+    }
+    
+    h6 span {
+        font-family: Happy-Times-at-the-IKOB, serif;
+    /* font-size: 1.2em; */
+    /* font-weight: 400; */
+    font-style: normal;
+    line-height: 1.2em;
+    color: black;
+    /* text-decoration: underline; */
+    letter-spacing: 0.1em;
+    /* position: relative; */
+    }
+    #spacer >a> img{
+       display: none;
+    }
+
+    .image.mobileHero {
+        height: 24em;
+        /*width: 100%;*/
+    }
+    
+    
+
+    
+    #mobileArrow {
+        display: block;
+        width: 3em;
+        height: auto;
+        /*position: absolute;*/
+        /*bottom:1.3em;*/
+    }
+    
+    .slick-prev {
+    display: none !important;
+    
+}
+    .slick-next {
+      display: none !important;
+    }
+    .container {
+            display: inline-block;
+        width: 100%;
+        margin-bottom: 1.2vh;
+    }
+    .subhead {
+        margin-bottom: 1%;
+    }
+    .number {
+            width: 90%;
+        margin-left: 3%;
+        margin-bottom: 0;
+    }
+    .large-subhead {
+             width: 90%;
+        margin: 5%;
+
+        /*margin-bottom: 0;*/
+    }
+    .metadata {
+            width: 90%;
+            margin-left: 3%;
+            margin-top: 0;
+            
+    }
+
+    .subhead {
+            width: 85%;
+    float: right;
+        
+    }
+    .content {
+        width: 100%;
+        float: right;
+    }
+    .content img {
+        margin-top: 5%;
+    }
+    .projectMobileOnly {
+        display: flex;
+    }
+    .desktopOnly{
+        display: none;
+    }
+    
+    }
+
+
+
